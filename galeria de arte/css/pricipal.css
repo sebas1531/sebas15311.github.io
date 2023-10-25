@@ -1,0 +1,1268 @@
+#header{
+   background-image:url("../img/header.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 200px;
+
+    
+}
+#registrarse{
+    background-color: rgb(6, 6, 70);
+    height: 50px;
+    width: 100px;
+    color: aliceblue;
+    border-radius: 10px;
+    float: left;
+    margin-left:200px ;
+    margin-top: 70px;
+}
+
+#barra{
+    background-color: rgb(41, 39, 39);
+    height: 70px;
+}
+
+#TEXTObarra{
+    color: antiquewhite;
+    float: left;
+    margin-left:140px;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+#nombre{
+float: left;
+font-size:70px;
+font-family: logo;
+color:black;
+margin-left: 50px;
+margin-top: 40px;
+}
+@font-face{
+    src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+    font-family: titulo;
+}
+@font-face{
+    src: url(/fuentes/Peachy.otf);
+    font-family: logo;
+}
+@font-face{
+    src: url(/fuentes/JosefinSans-Bold.ttf);
+    font-family: texto;
+}
+
+#titulos{
+    
+        color: black;
+        font-size: 50px;
+        font-family: titulo;
+       margin-left: 38%;
+       
+       margin-top: 100px;
+    }
+    #linea{
+        background-color: black;
+        height: 1px;
+    }
+    
+#texto{
+    font-size: 20px;
+    font-family: texto;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+#contenedor{
+    background-color: rgba(0, 255, 255, 0);
+    height: 430px;
+    display: flex;
+    width: 80%;
+    margin-left:150px;
+    margin-top: 80px;
+}
+
+#imgRenacimiento{
+    background-image: url( ../img/renancentismo.jpg);
+    height: 360px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#imgManierismo{
+    background-image: url( ../img/manierismo.jpg);
+    height: 360px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;  
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+#imgBarroco{
+    background-image: url( ../img/barroco.jpg);
+    height: 360px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; 
+    margin-top: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#imgRococo{
+    background-image: url( ../img/rococo.jpg);
+    height: 360px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; 
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#imgNeoclasicismo{
+    background-image: url( ../img/neoclasismo.jpg);
+    height: 360px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px; 
+    margin-top: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#tipos{
+    color: white;
+    font-size: 25px;
+    font-family: texto;
+    
+}
+
+#footer{
+    height: 200px;
+    background-color: black;
+    display: flex;
+
+align-items: center;
+align-content: center;
+flex-direction: column;
+align-content: space-between;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+}
+#redes{
+    height:60px ;
+    width: 280px;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 50px;
+}
+#facebook{
+    background-image: url(/img/facebook\ \(1\).png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+}
+#istagram{
+    background-image: url(/img/instagram\ \(2\).png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+}
+#twiter{
+    background-image: url(/img/gorjeo.png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+}
+#textofooter{
+    font-family: titulo;
+    color: aliceblue;
+    margin-top: 10px;
+}
+#textofooter{
+    font-family: titulo;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 490px) {
+
+    
+  
+    #header{
+        background-image:url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 100px;
+         width: 100%;
+       
+         
+         
+     }
+
+
+
+    
+     #nombre{
+     
+        font-size:20px;
+        font-family: logo;
+        color:black;
+        margin-left: 10%;
+        margin-top: 20px;
+        }
+     #registrarse{
+         background-color: rgb(6, 6, 70);
+         height: 20px;
+         width: 40px;
+         color: aliceblue;
+         border-radius: 5px;
+         font-size: 5px;
+         margin-top: 3px;
+         margin-left: 70%;
+         
+         
+         
+         
+        
+     }
+     
+     #barra{
+         background-color: rgb(41, 39, 39);
+         height: 40px;
+         width: 100%;
+     }
+     
+     #TEXTObarra{
+         color: antiquewhite;
+         float: left;
+         margin-left:8%;
+         
+         margin-top: 17px;
+         font-size: 7px;
+     
+     }
+     
+     
+     
+     
+     
+     
+    
+     @font-face{
+         src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+         font-family: titulo;
+     }
+     @font-face{
+         src: url(/fuentes/Peachy.otf);
+         font-family: logo;
+     }
+     @font-face{
+         src: url(/fuentes/JosefinSans-Bold.ttf);
+         font-family: texto;
+     }
+
+    
+     
+     #titulos{
+         
+             color: black;
+             font-size: 25px;
+             font-family: titulo;
+            margin-left:20%;
+            margin-right: auto;
+            
+            margin-top: 20px;
+         }
+         #linea{
+             background-color: black;
+             height: 1px;
+         }
+         
+     #texto{
+         font-size: 10px;
+         font-family: texto;
+         margin-left: 10%;
+         margin-right: 10%;
+         
+     }
+     
+     #contenedor{
+         background-color: rgba(0, 255, 255, 0);
+         height: 100%;
+         
+         width: 100%;
+         margin-left:2px;
+         margin-top: 1px;
+         display: flex;
+         flex-direction: column;
+     }
+
+    
+     
+     #imgRenacimiento{
+         background-image: url( ../img/renancentismo.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+       margin-top: 5%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+         
+     }
+     #imgManierismo{
+         background-image: url( ../img/manierismo.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+        margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+          
+     }
+     #imgBarroco{
+         background-image: url( ../img/barroco.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+        margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+         
+     }
+     #imgRococo{
+         background-image: url( ../img/rococo.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+        margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+         
+     }
+     #imgNeoclasicismo{
+         background-image: url( ../img/neoclasismo.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+        margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+         
+     }
+     
+     #tipos{
+         color: white;
+         font-size: 12px;
+         font-family: texto;
+         
+     }
+     
+     #footer{
+         height: 200px;
+         background-color: black;
+         display: flex;
+     
+     align-items: center;
+     align-content: center;
+     flex-direction: column;
+     align-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 5%;
+     }
+     #redes{
+         height:60px ;
+         width: 280px;
+         background-color: rgba(0, 0, 255, 0);
+         margin-top: 50px;
+     }
+     #facebook{
+         background-image: url(/img/facebook\ \(1\).png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #istagram{
+         background-image: url(/img/instagram\ \(2\).png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #twiter{
+         background-image: url(/img/gorjeo.png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #textofooter{
+         font-family: titulo;
+         color: aliceblue;
+         margin-top: 10px;
+     }
+     #textofooter{
+         font-family: titulo;
+         color: aliceblue;
+         margin-top: 10px;
+     }
+     
+}
+
+
+
+
+@media screen and (min-width: 491px) and (max-width: 570px) {
+
+    
+  
+    #header{
+        background-image:url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 100px;
+         width: 100%;
+       
+         
+         
+     }
+
+
+
+    
+     #nombre{
+     
+        font-size:30px;
+        font-family: logo;
+        color:black;
+        margin-left: 10%;
+        margin-top: 20px;
+        }
+     #registrarse{
+         background-color: rgb(6, 6, 70);
+         height: 30px;
+         width: 50px;
+         color: aliceblue;
+         border-radius: 5px;
+         font-size: 7px;
+         margin-top: 3px;
+         margin-left: 70%;
+         
+         
+         
+         
+        
+     }
+     
+     #barra{
+         background-color: rgb(41, 39, 39);
+         height: 40px;
+         width: 100%;
+     }
+     
+     #TEXTObarra{
+         color: antiquewhite;
+         float: left;
+         margin-left:11%;
+         
+         margin-top: 17px;
+         font-size: 7px;
+     
+     }
+     
+     
+     
+     
+     
+     
+    
+     @font-face{
+         src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+         font-family: titulo;
+     }
+     @font-face{
+         src: url(/fuentes/Peachy.otf);
+         font-family: logo;
+     }
+     @font-face{
+         src: url(/fuentes/JosefinSans-Bold.ttf);
+         font-family: texto;
+     }
+
+    
+     
+     #titulos{
+         
+             color: black;
+             font-size: 25px;
+             font-family: titulo;
+            margin-left:30%;
+            margin-right: auto;
+            
+            margin-top: 30px;
+         }
+         #linea{
+             background-color: black;
+             height: 1px;
+         }
+         
+     #texto{
+         font-size: 10px;
+         font-family: texto;
+         margin-left: 10%;
+         margin-right: 10%;
+         
+     }
+     
+     #contenedor{
+         background-color: rgba(0, 255, 255, 0);
+         height:100%;
+         
+         width: 100%;
+         margin-left:2px;
+         margin-top: 1px;
+         display: flex;
+         flex-direction: column;
+     }
+
+    
+     
+     #imgRenacimiento{
+         background-image: url( ../img/renancentismo.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+       
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+         
+     }
+     #imgManierismo{
+         background-image: url( ../img/manierismo.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+        margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+          
+     }
+     #imgBarroco{
+         background-image: url( ../img/barroco.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+        margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+         
+     }
+     #imgRococo{
+         background-image: url( ../img/rococo.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+        margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+         
+     }
+     #imgNeoclasicismo{
+         background-image: url( ../img/neoclasismo.jpg);
+         height:100px ;
+         width: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 20px;
+         margin-left: 10%;
+         margin-right: 10%;
+        margin-top: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     
+         
+     }
+     
+     #tipos{
+         color: white;
+         font-size: 20px;
+         font-family: texto;
+         
+     }
+     
+     #footer{
+         height: 200px;
+         background-color: black;
+         display: flex;
+     
+     align-items: center;
+     align-content: center;
+     flex-direction: column;
+     align-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 60px;
+     }
+     #redes{
+         height:60px ;
+         width: 280px;
+         background-color: rgba(0, 0, 255, 0);
+         margin-top: 50px;
+     }
+     #facebook{
+         background-image: url(/img/facebook\ \(1\).png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #istagram{
+         background-image: url(/img/instagram\ \(2\).png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #twiter{
+         background-image: url(/img/gorjeo.png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #textofooter{
+         font-family: titulo;
+         color: aliceblue;
+         margin-top: 10px;
+     }
+     #textofooter{
+         font-family: titulo;
+         color: aliceblue;
+         margin-top: 10px;
+     }
+     
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 571px) and (max-width: 890px) {
+
+    
+  
+    #header{
+        background-image:url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 130px;
+         width: 100%;
+       
+         
+         
+     }
+
+
+
+    
+     #nombre{
+     
+        font-size:40px;
+        font-family: logo;
+        color:black;
+        margin-left: 10%;
+        margin-top: 20px;
+        }
+     #registrarse{
+         background-color: rgb(6, 6, 70);
+         height: 30px;
+         width: 60px;
+         color: aliceblue;
+         border-radius: 5px;
+         font-size: 9px;
+         margin-top: 3px;
+         margin-left: 70%;
+         
+         
+         
+         
+        
+     }
+     
+     #barra{
+         background-color: rgb(41, 39, 39);
+         height: 40px;
+         width: 100%;
+     }
+     
+     #TEXTObarra{
+         color: antiquewhite;
+         float: left;
+         margin-left:6%;
+         margin-right: 6%;
+         margin-top: 17px;
+         font-size: 10px;
+     
+     }
+     
+     
+     
+     
+     
+     
+    
+     @font-face{
+         src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+         font-family: titulo;
+     }
+     @font-face{
+         src: url(/fuentes/Peachy.otf);
+         font-family: logo;
+     }
+     @font-face{
+         src: url(/fuentes/JosefinSans-Bold.ttf);
+         font-family: texto;
+     }
+
+    
+     
+     #titulos{
+         
+             color: black;
+             font-size: 40px;
+             font-family: titulo;
+            margin-left:35%;
+            
+            margin-top: 7%;
+         }
+         #linea{
+             background-color: black;
+             height: 1px;
+         }
+         
+     #texto{
+         font-size: 15px;
+         font-family: texto;
+         margin-left: 10%;
+         margin-right: 10%;
+         
+     }
+     
+     #contenedor{
+        background-color: rgba(0, 255, 255, 0.945);
+        height: 400px;
+        
+        width: 80%;
+        margin-left:10%;
+        margin-right:10% ;
+        margin-top: 8%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #imgRenacimiento{
+        background-image: url( ../img/renancentismo.jpg);
+        height: 84%;
+        width: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        margin-top: 70px;
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        
+    }
+    #imgManierismo{
+        background-image: url( ../img/manierismo.jpg);
+        height: 84%;
+        width: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;  
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         
+    }
+    #imgBarroco{
+        background-image: url( ../img/barroco.jpg);
+        height: 84%;
+        width: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px; 
+        margin-top: 70px;
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #imgRococo{
+        background-image: url( ../img/rococo.jpg);
+        height: 84%;
+        width: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px; 
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #imgNeoclasicismo{
+        background-image: url( ../img/neoclasismo.jpg);
+        height: 84%;
+        width: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px; 
+        margin-top: 70px;
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+     
+     #tipos{
+         color: white;
+         font-size: 70%;
+         font-family: texto;
+         
+     }
+     
+     #footer{
+         height: 200px;
+         background-color: black;
+         display: flex;
+     
+     align-items: center;
+     align-content: center;
+     flex-direction: column;
+     align-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 60px;
+     }
+     #redes{
+         height:60px ;
+         width: 280px;
+         background-color: rgba(0, 0, 255, 0);
+         margin-top: 50px;
+     }
+     #facebook{
+         background-image: url(/img/facebook\ \(1\).png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #istagram{
+         background-image: url(/img/instagram\ \(2\).png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #twiter{
+         background-image: url(/img/gorjeo.png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #textofooter{
+         font-family: titulo;
+         color: aliceblue;
+         margin-top: 10px;
+     }
+     #textofooter{
+         font-family: titulo;
+         color: aliceblue;
+         margin-top: 10px;
+     }
+     
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 891px) and (max-width: 1000px) {
+
+    
+  
+    #header{
+        background-image:url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 130px;
+         width: 100%;
+       
+         
+         
+     }
+
+
+
+    
+     #nombre{
+     
+        font-size:50px;
+        font-family: logo;
+        color:black;
+        margin-left: 10%;
+        margin-top: 20px;
+        }
+     #registrarse{
+         background-color: rgb(6, 6, 70);
+         height: 30px;
+         width: 60px;
+         color: aliceblue;
+         border-radius: 5px;
+         font-size: 9px;
+         margin-top: 1px;
+         margin-left: 80%;
+         
+         
+         
+         
+        
+     }
+     
+     #barra{
+         background-color: rgb(41, 39, 39);
+         height: 40px;
+         width: 100%;
+     }
+     
+     #TEXTObarra{
+         color: antiquewhite;
+         float: left;
+         margin-left:6%;
+         margin-right: 6%;
+         margin-top: 17px;
+         font-size: 10px;
+     
+     }
+     
+     
+     
+     
+     
+     
+    
+     @font-face{
+         src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+         font-family: titulo;
+     }
+     @font-face{
+         src: url(/fuentes/Peachy.otf);
+         font-family: logo;
+     }
+     @font-face{
+         src: url(/fuentes/JosefinSans-Bold.ttf);
+         font-family: texto;
+     }
+
+    
+     
+     #titulos{
+         
+             color: black;
+             font-size: 40px;
+             font-family: titulo;
+            margin-left:35%;
+            
+            margin-top: 7%;
+         }
+         #linea{
+             background-color: black;
+             height: 1px;
+         }
+         
+     #texto{
+         font-size: 15px;
+         font-family: texto;
+         margin-left: 10%;
+         margin-right: 10%;
+         
+     }
+     
+     #contenedor{
+        background-color: rgba(0, 255, 255, 0.959);
+        height: 430px;
+        
+        width: 80%;
+        margin-left:10%;
+        margin-right:10% ;
+        margin-top: 8%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #imgRenacimiento{
+        background-image: url( ../img/renancentismo.jpg);
+        height: 84%;
+        width: 140px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        margin-top: 70px;
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        
+    }
+    #imgManierismo{
+        background-image: url( ../img/manierismo.jpg);
+        height: 84%;
+        width: 140px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;  
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         
+    }
+    #imgBarroco{
+        background-image: url( ../img/barroco.jpg);
+        height: 84%;
+        width: 140px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px; 
+        margin-top: 70px;
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #imgRococo{
+        background-image: url( ../img/rococo.jpg);
+        height: 84%;
+        width: 140px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px; 
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #imgNeoclasicismo{
+        background-image: url( ../img/neoclasismo.jpg);
+        height: 84%;
+        width: 140px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px; 
+        margin-top: 70px;
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+     
+     #tipos{
+         color: white;
+         font-size: 20px;
+         font-family: texto;
+         
+     }
+     
+     #footer{
+         height: 200px;
+         background-color: black;
+         display: flex;
+     
+     align-items: center;
+     align-content: center;
+     flex-direction: column;
+     align-content: space-between;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 60px;
+     }
+     #redes{
+         height:60px ;
+         width: 280px;
+         background-color: rgba(0, 0, 255, 0);
+         margin-top: 50px;
+     }
+     #facebook{
+         background-image: url(/img/facebook\ \(1\).png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #istagram{
+         background-image: url(/img/instagram\ \(2\).png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #twiter{
+         background-image: url(/img/gorjeo.png);
+         height: 50px;
+         width: 50px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+         margin-left: 30px;
+     }
+     #textofooter{
+         font-family: titulo;
+         color: aliceblue;
+         margin-top: 10px;
+     }
+     #textofooter{
+         font-family: titulo;
+         color: aliceblue;
+         margin-top: 10px;
+     }
+     
+}
+
+

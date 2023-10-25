@@ -1,0 +1,1155 @@
+#header{
+    background-image:url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 200px;
+ 
+     
+ }
+ #registrarse{
+     background-color: rgb(6, 6, 70);
+     height: 30%;
+     width: 8%;
+     color: aliceblue;
+     border-radius: 10px;
+     float: left;
+     margin-left:10% ;
+     margin-top: 5%;
+     font-size: 100%;
+ }
+ 
+ #barra{
+     background-color: rgb(41, 39, 39);
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+
+ }
+ 
+ #TEXTObarra{
+     color: antiquewhite;
+     float: left;
+    
+     
+     font-size: 120%;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ #Logo{
+ float: left;
+ font-size:500%;
+ font-family: logo;
+ color:black;
+ margin-left: 10%;
+ margin-top: 3%;
+ }
+ @font-face{
+     src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+     font-family: titulo;
+ }
+ @font-face{
+     src: url(/fuentes/Peachy.otf);
+     font-family: logo;
+ }
+ @font-face{
+     src: url(/fuentes/JosefinSans-Bold.ttf);
+     font-family: texto;
+ }
+
+#centrartitulo{
+    background-color: rgba(0, 255, 255, 0);
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+ #titulos{
+     
+         color: black;
+         font-size: 400%;
+         font-family: titulo;
+        
+        
+        margin-top: 100px;
+     }
+     #linea{
+         background-color: black;
+         height: 1px;
+     }
+     
+ #texto{
+     font-size: 150%;
+     font-family: texto;
+     margin-left: 10%;
+     margin-right: 10%;
+      } 
+
+
+      #contenedor{
+        background-color: rgba(61, 63, 63, 0.192);
+        height: 100%;
+        width: 80%;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        
+        
+      }
+
+      #pintura{
+        background-image: url('../img/5neoclsismo1.jpg');
+        height: 500px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+      }
+      #pintura2{
+        background-image: url('../img/5neoclasismo2.jpg');
+        height: 500px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+      }
+      #pintura3{
+        background-image: url('../img/5francoisgerard3.jpg');
+        height: 500px;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    
+      }
+      #pintura4{
+        background-image: url('../img/5neoclaismo4.jpg');
+        height: 500px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;   }
+
+
+      #nombre{
+        font-family: texto;
+        font-size: 120%;
+        
+      }
+#textopintura{
+    font-family: titulo;
+    font-size: 110%;
+    
+}
+.textocentro{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#footer{
+    height: 200px;
+    background-color: black;
+    display: flex;
+
+align-items: center;
+align-content: center;
+flex-direction: column;
+align-content: space-between;
+margin-left: auto;
+margin-right: auto;
+margin-top: 60px;
+}
+#redes{
+    height:60px ;
+    width: 280px;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 50px;
+}
+#facebook{
+    background-image: url(/img/facebook\ \(1\).png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+}
+#istagram{
+    background-image: url(/img/instagram\ \(2\).png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+}
+#twiter{
+    background-image: url(/img/gorjeo.png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 30px;
+}
+#textofooter{
+    font-family: titulo;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+
+    #header{
+        background-image:url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 100px;
+         width: 100%;
+       
+         
+         
+     }
+
+    
+     #Logo{
+     
+        font-size: 150%;
+        font-family: logo;
+        color:black;
+        margin-left: 10%;
+        margin-top: 3%;
+        
+        }
+     #registrarse{
+         background-color: rgb(6, 6, 70);
+         height: 20px;
+         width: 40px;
+         color: aliceblue;
+         border-radius: 5px;
+        
+         
+         margin-left:10% ;
+         margin-top: 5%;
+         font-size: 20%;
+         
+         
+         
+        
+     }
+     
+     #barra{
+         
+         width: 100%;
+         background-color: rgb(41, 39, 39);
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     }
+     
+     #TEXTObarra{
+         color: antiquewhite;
+         float: left;
+        
+         
+         
+         font-size: 60%;
+     
+     }
+     
+     
+     
+     
+     
+     
+    
+     @font-face{
+         src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+         font-family: titulo;
+     }
+     @font-face{
+         src: url(/fuentes/Peachy.otf);
+         font-family: logo;
+     }
+     @font-face{
+         src: url(/fuentes/JosefinSans-Bold.ttf);
+         font-family: texto;
+     }
+
+    
+     
+     #titulos{
+         
+             color: black;
+            font-size: 150%;
+            font-family: titulo;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 8%;
+         }
+         #linea{
+             background-color: black;
+             height: 1px;
+         }
+         
+     #texto{
+         font-size: 80%;
+         font-family: texto;
+         margin-left: 10%;
+         margin-right: 10%;
+         
+     }
+    
+    
+          #contenedor{
+            background-color: rgba(61, 63, 63, 0.192);
+            height: 100%;
+            width: 80%;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 5%;
+            
+            
+          }
+    
+          #pintura{
+            background-image: url('../img/5neoclsismo1.jpg');
+            height: 135px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+          }
+          #pintura2{
+            background-image: url('../img/5neoclasismo2.jpg');
+            height: 200px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+          }
+          #pintura3{
+            background-image: url('../img/5francoisgerard3.jpg');
+            height: 200px;
+            width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+        
+          }
+          #pintura4{
+            background-image: url('../img/5neoclaismo4.jpg');
+            height: 200px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;   }
+    
+    
+          #nombre{
+            font-family: texto;
+            font-size: 120%;
+            
+          }
+    #textopintura{
+        font-family: titulo;
+        font-size: 110%;
+        
+    }
+    .textocentro{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    #footer{
+        height: 200px;
+        background-color: black;
+        display: flex;
+    
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    }
+    #redes{
+        height:60px ;
+        width: 280px;
+        background-color: rgba(0, 0, 255, 0);
+        margin-top: 50px;
+    }
+    #facebook{
+        background-image: url(/img/facebook\ \(1\).png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #istagram{
+        background-image: url(/img/instagram\ \(2\).png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #twiter{
+        background-image: url(/img/gorjeo.png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #textofooter{
+        font-family: titulo;
+        color: aliceblue;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+
+    #header{
+        background-image:url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 110px;
+         width: 100%;
+       
+         
+         
+     }
+
+    
+     #Logo{
+     
+        font-size: 180%;
+        font-family: logo;
+        color:black;
+        margin-left: 10%;
+        margin-top: 5%;
+        
+        }
+     #registrarse{
+         background-color: rgb(6, 6, 70);
+         height: 30px;
+         width: 50px;
+         color: aliceblue;
+         border-radius: 5px;
+        
+         
+         margin-left:10% ;
+         margin-top: 5%;
+         font-size: 20%;
+         
+         
+         
+        
+     }
+     
+     #barra{
+         
+         width: 100%;
+         background-color: rgb(41, 39, 39);
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     }
+     
+     #TEXTObarra{
+         color: antiquewhite;
+         float: left;
+        
+         
+         
+         font-size: 70%;
+     
+     }
+     
+     
+     
+     
+     
+     
+    
+     @font-face{
+         src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+         font-family: titulo;
+     }
+     @font-face{
+         src: url(/fuentes/Peachy.otf);
+         font-family: logo;
+     }
+     @font-face{
+         src: url(/fuentes/JosefinSans-Bold.ttf);
+         font-family: texto;
+     }
+
+    
+     
+     #titulos{
+         
+             color: black;
+            font-size: 150%;
+            font-family: titulo;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 8%;
+         }
+         #linea{
+             background-color: black;
+             height: 1px;
+         }
+         
+     #texto{
+         font-size: 80%;
+         font-family: texto;
+         margin-left: 10%;
+         margin-right: 10%;
+         
+     }
+    
+    
+          #contenedor{
+            background-color: rgba(61, 63, 63, 0.192);
+            height: 100%;
+            width: 80%;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 5%;
+            
+            
+          }
+    
+          #pintura{
+            background-image: url('../img/5neoclsismo1.jpg');
+            height: 200px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+          }
+          #pintura2{
+            background-image: url('../img/5neoclasismo2.jpg');
+            height: 200px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+          }
+          #pintura3{
+            background-image: url('../img/5francoisgerard3.jpg');
+            height: 200px;
+            width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+        
+          }
+          #pintura4{
+            background-image: url('../img/5neoclaismo4.jpg');
+            height: 200px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;   }
+    
+    
+          #nombre{
+            font-family: texto;
+            font-size: 120%;
+            
+          }
+    #textopintura{
+        font-family: titulo;
+        font-size: 110%;
+        
+    }
+    .textocentro{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    #footer{
+        height: 200px;
+        background-color: black;
+        display: flex;
+    
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    }
+    #redes{
+        height:60px ;
+        width: 280px;
+        background-color: rgba(0, 0, 255, 0);
+        margin-top: 50px;
+    }
+    #facebook{
+        background-image: url(/img/facebook\ \(1\).png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #istagram{
+        background-image: url(/img/instagram\ \(2\).png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #twiter{
+        background-image: url(/img/gorjeo.png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #textofooter{
+        font-family: titulo;
+        color: aliceblue;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 571px) and (max-width: 890px){
+
+    #header{
+        background-image:url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 110px;
+         width: 100%;
+       
+         
+         
+     }
+
+    
+     #Logo{
+     
+        font-size: 200%;
+        font-family: logo;
+        color:black;
+        margin-left: 10%;
+        margin-top: 3%;
+        
+        }
+     #registrarse{
+         background-color: rgb(6, 6, 70);
+         height: 37px;
+         width: 68px;
+         color: aliceblue;
+         border-radius: 5px;
+        
+         
+         margin-left:15% ;
+         margin-top: 5%;
+         font-size: 70%;
+         
+         
+         
+        
+     }
+     
+     #barra{
+         
+         width: 100%;
+         background-color: rgb(41, 39, 39);
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     }
+     
+     #TEXTObarra{
+         color: antiquewhite;
+         float: left;
+        
+         
+         
+         font-size: 80%;
+     
+     }
+     
+     
+     
+     
+     
+     
+    
+     @font-face{
+         src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+         font-family: titulo;
+     }
+     @font-face{
+         src: url(/fuentes/Peachy.otf);
+         font-family: logo;
+     }
+     @font-face{
+         src: url(/fuentes/JosefinSans-Bold.ttf);
+         font-family: texto;
+     }
+
+    
+     
+     #titulos{
+         
+             color: black;
+            font-size: 250%;
+            font-family: titulo;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 8%;
+         }
+         #linea{
+             background-color: black;
+             height: 1px;
+         }
+         
+     #texto{
+         font-size: 90%;
+         font-family: texto;
+         margin-left: 10%;
+         margin-right: 10%;
+         
+     }
+    
+    
+          #contenedor{
+            background-color: rgba(61, 63, 63, 0.192);
+            height: 100%;
+            width: 80%;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 5%;
+            
+            
+          }
+    
+          #pintura{
+            background-image: url('../img/5neoclsismo1.jpg');
+            height: 250px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+          }
+          #pintura2{
+            background-image: url('../img/5neoclasismo2.jpg');
+            height: 250px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+          }
+          #pintura3{
+            background-image: url('../img/5francoisgerard3.jpg');background-image: url('../img/4ROCOCÓ3.jpg');
+            height: 350px;
+            width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+        
+          }
+          #pintura4{
+            background-image: url('../img/5neoclaismo4.jpg');
+            height: 350px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;   }
+    
+    
+          #nombre{
+            font-family: texto;
+            font-size: 120%;
+            
+          }
+    #textopintura{
+        font-family: titulo;
+        font-size: 110%;
+        
+    }
+    .textocentro{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    #footer{
+        height: 200px;
+        background-color: black;
+        display: flex;
+    
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    }
+    #redes{
+        height:60px ;
+        width: 280px;
+        background-color: rgba(0, 0, 255, 0);
+        margin-top: 50px;
+    }
+    #facebook{
+        background-image: url(/img/facebook\ \(1\).png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #istagram{
+        background-image: url(/img/instagram\ \(2\).png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #twiter{
+        background-image: url(/img/gorjeo.png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #textofooter{
+        font-family: titulo;
+        color: aliceblue;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 891px) and (max-width: 1000px){
+
+    #header{
+        background-image:url("../img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 110px;
+         width: 100%;
+       
+         
+         
+     }
+
+    
+     #Logo{
+     
+        font-size: 250%;
+        font-family: logo;
+        color:black;
+        margin-left: 10%;
+        margin-top: 3%;
+        
+        }
+     #registrarse{
+         background-color: rgb(6, 6, 70);
+         height: 37px;
+         width: 68px;
+         color: aliceblue;
+         border-radius: 5px;
+        
+         
+         margin-left:15% ;
+         margin-top: 5%;
+         font-size: 70%;
+         
+         
+         
+        
+     }
+     
+     #barra{
+         
+         width: 100%;
+         background-color: rgb(41, 39, 39);
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     }
+     
+     #TEXTObarra{
+         color: antiquewhite;
+         float: left;
+        
+         
+         
+         font-size: 80%;
+     
+     }
+     
+     
+     
+     
+     
+     
+    
+     @font-face{
+         src: url(/fuentes/JosefinSans-ExtraLight.ttf);
+         font-family: titulo;
+     }
+     @font-face{
+         src: url(/fuentes/Peachy.otf);
+         font-family: logo;
+     }
+     @font-face{
+         src: url(/fuentes/JosefinSans-Bold.ttf);
+         font-family: texto;
+     }
+
+    
+     
+     #titulos{
+         
+             color: black;
+            font-size: 250%;
+            font-family: titulo;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 8%;
+         }
+         #linea{
+             background-color: black;
+             height: 1px;
+         }
+         
+     #texto{
+         font-size: 90%;
+         font-family: texto;
+         margin-left: 10%;
+         margin-right: 10%;
+         
+     }
+    
+    
+          #contenedor{
+            background-color: rgba(61, 63, 63, 0.192);
+            height: 100%;
+            width: 80%;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 5%;
+            
+            
+          }
+    
+          #pintura{
+            background-image: url('../img/5neoclsismo1.jpg');
+            height: 300px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+          }
+          #pintura2{
+            background-image: url('../img/5neoclasismo2.jpg');
+            height: 300px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+          }
+          #pintura3{
+            background-image: url('../img/5francoisgerard3.jpg');
+            height: 350px;
+            width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;
+        
+          }
+          #pintura4{
+            background-image: url('../img/5neoclaismo4.jpg');
+            height: 350px;
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3%;   }
+    
+    
+          #nombre{
+            font-family: texto;
+            font-size: 120%;
+            
+          }
+    #textopintura{
+        font-family: titulo;
+        font-size: 110%;
+        
+    }
+    .textocentro{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    #footer{
+        height: 200px;
+        background-color: black;
+        display: flex;
+    
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    }
+    #redes{
+        height:60px ;
+        width: 280px;
+        background-color: rgba(0, 0, 255, 0);
+        margin-top: 50px;
+    }
+    #facebook{
+        background-image: url(/img/facebook\ \(1\).png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #istagram{
+        background-image: url(/img/instagram\ \(2\).png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #twiter{
+        background-image: url(/img/gorjeo.png);
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        margin-left: 30px;
+    }
+    #textofooter{
+        font-family: titulo;
+        color: aliceblue;
+        margin-top: 10px;
+    }
+
+}
